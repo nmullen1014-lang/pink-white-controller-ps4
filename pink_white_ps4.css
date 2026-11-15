@@ -1,0 +1,11 @@
+/* Pink/white PS4 skin for GamepadViewer s=5. Assets in repo root. */
+.controller.ds4 { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/base.svg") !important; }
+.ds4 .button { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/face.svg") !important; }
+.ds4 .face { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/dpad.svg") !important; }
+.ds4 .stick { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/sticks.svg") !important; }
+.ds4 .bumper { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/bumper.svg") !important; }
+.ds4 .trigger { background-image: url("https://nmullen1014-lang.github.io/pink-white-dualsense-v2/triggers.svg") !important; }
+/* Cyan when controls are pressed. The original sprite position and motion remain controlled by GamepadViewer. */
+.ds4 .button.pressed, .ds4 .face.pressed, .ds4 .stick.pressed,
+.ds4 .bumper.pressed, .ds4 .trigger.pressed { filter: sepia(1) saturate(8) hue-rotate(145deg) brightness(1.2); }
+.ds4 .bumper.pressed, .ds4 .trigger.pressed { opacity: 1 !important; }
